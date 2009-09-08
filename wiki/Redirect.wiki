@@ -6,7 +6,9 @@
 
 2. Find the line
 
-{{{$theme = $_zp_gallery->getCurrentTheme();}}}
+{{{
+		$theme = $_zp_gallery->getCurrentTheme();
+}}}
 
 3. Replace this line with the following code to redirect to the iPhone Safari browser only:
 
