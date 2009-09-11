@@ -1,6 +1,6 @@
 =ChangeLog=
 
-*2009-09-11* :: Multiple Bug Fixes and Added Functionality:
+*2009-09-11* :: Version 1.1.0 - Multiple Bug Fixes and Added Functionality:
   * Bottom margin spacing issue addressed.
   * Footer altered for sub-album only pages.
   * Image rotation for gallery and album pages now zooms and crops appropriately upon rotation events.
