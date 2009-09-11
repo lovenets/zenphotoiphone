@@ -1,3 +1,12 @@
 =ChangeLog=
 
+*2009-09-11* :: Multiple Bug Fixes and Added Functionality:
+  * Bottom margin spacing issue addressed.
+  * Footer altered for sub-album only pages.
+  * Image rotation for gallery and album pages now zooms and crops appropriately upon rotation events.
+  * Fixed 'load more images' button when album list grows larger than 10.
+  * Photographs can now be saved by holding finger on the main picture and pressing 'save image'.
+  * Added home button to sub-album view.
+  * Some minor code improvements.
+
 *2009-09-05* :: Version 1.0.0 was posted.
