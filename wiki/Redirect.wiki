@@ -11,7 +11,7 @@
 		$theme = $_zp_gallery->getCurrentTheme();
 }}}
 
-3. Replace this line with the following code to redirect for the iPhone Safari browser only (remember to rename "iphone_directory accordingly):
+3. Replace this line with the following code to redirect for the iPhone Safari browser only (remember to rename "iphone_directory" accordingly):
 
 {{{
 		$UA = isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : "";
