@@ -1,7 +1,7 @@
 #labels Featured
 #This is an explaination of what to change in order to redirect an iPhone Safari only browser to the iPhone theme.
 
-*'iphone_directory' refers to the theme folder that you have created. For example /var/www/zenphoto/themes/iphone_directory (by default, the directory will be called 'iphone'*
+*'iphone_directory' refers to the theme folder that you have created. For example /var/www/zenphoto/themes/iphone_directory (by default, the directory will be called 'iphone')*
 
 1. Open functions.php found in `/zenphoto/zp-core/`
 
