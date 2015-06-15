@@ -1,0 +1,30 @@
+#This is an explaination of what to change in order to redirect an iPhone Safari only browser to the iPhone theme.
+
+**'iphone\_directory' refers to the iphone-theme folder that you have created (by default, the directory will be called 'iphone'). For example /var/www/zenphoto/themes/iphone\_directory**
+
+1. Open functions.php found in `/zenphoto/zp-core/`
+
+2. Find the line
+
+```
+		$theme = $_zp_gallery->getCurrentTheme();
+```
+
+3. Replace this line with the following code to redirect for the iPhone Safari browser only (remember to rename "iphone\_directory" accordingly):
+
+```
+		$UA = isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : "";
+		$iphone = stristr($UA, 'iPhone') ? true : false;
+		
+		if($iphone){
+		$theme = "iphone_directory"; // iphone theme.
+		}else{
+		$theme = $_zp_gallery->getCurrentTheme(); // regular theme
+		}
+```
+
+
+---
+
+
+_Reference: http://www.zenphoto.org/support/topic.php?id=3788_

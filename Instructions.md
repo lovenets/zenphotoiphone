@@ -1,0 +1,7 @@
+#Installation Instructions.
+
+1. Download the current version of the zenphotoiphone theme from the [Download Page](http://code.google.com/p/zenphotoiphone/downloads/list).
+
+2. Extract the contents to your themes directory. This is found under `/zenphoto/themes/`.
+
+3. Configure the functions.php to automatically redirect: [Instructions](http://code.google.com/p/zenphotoiphone/wiki/Redirect).

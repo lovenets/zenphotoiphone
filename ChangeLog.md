@@ -1,0 +1,22 @@
+# ChangeLog #
+
+**2010-05-04** :: Version 1.3.1 - Bug Fixes and Added Functionality:
+  * New, cleaner arrow navigation for pictures.
+  * New buttons for NEXT and PREVIOUS groups of pictures while in album.
+  * Preload/pre-generate next images while browsing full photos.
+  * Better sub-album naming and navigation.
+  * Added login for private albums (Thanks to PigsLipstick - see blog).
+  * Added mp4 support in theme (Thanks to soumenb @ UberCyber).  Please see blog for more instructions on mp4 support.
+  * iPhone specific settings, such as no longer recognizes image names as phone numbers.
+  * Updated degraded functions to be compatible with zenPhoto 1.3.
+
+**2009-09-11** :: Version 1.1.0 - Multiple Bug Fixes and Added Functionality:
+  * Bottom margin spacing issue addressed.
+  * Footer altered for sub-album only pages.
+  * Image rotation for gallery and album pages now zooms and crops appropriately upon rotation events.
+  * Fixed 'load more images' button when album list grows larger than 10.
+  * Photographs can now be saved by holding finger on the main picture and pressing 'save image'.
+  * Added home button to sub-album view.
+  * Some minor code improvements.
+
+**2009-09-05** :: Version 1.0.0 was posted.
